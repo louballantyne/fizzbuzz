@@ -1,5 +1,6 @@
 def fizzbuzz(number)
-  (1..number).to_a.map { |num|
+  (0..number).to_a.map do |num|
+    return 0 if num == 0
     if num % 3 == 0 && num % 5 == 0
       'fizzbuzz'
     elsif num % 3 == 0
@@ -9,5 +10,5 @@ def fizzbuzz(number)
     else
       num
     end
-  }
+  end
 end
