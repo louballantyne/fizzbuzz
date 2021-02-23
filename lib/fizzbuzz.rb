@@ -1,2 +1,3 @@
-def fizzbuzz
-end 
+def fizzbuzz(number)
+  'fizz'
+end
